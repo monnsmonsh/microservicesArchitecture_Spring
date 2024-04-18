@@ -25,6 +25,10 @@
 | Lombok | WEB |
 | Spring Data MongoDB | NOSQL |
 
+conexion con la bd de mongodb
+```properties
+spring.data.mongodb.uri=mongodb://localhost:27017/ms_productdb
+```
 
 <!--
 https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=com.monnsmonsh&artifactId=product-microservice&name=product-microservice&description=Product%20Service&packageName=com.monnsmonsh.product-microservice&dependencies=lombok,web,data-mongodb
