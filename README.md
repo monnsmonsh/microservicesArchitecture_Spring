@@ -62,7 +62,7 @@ https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4
 | Spring Data JPA | SQL |
 | MySQL Driver | SQL | 
 
-conexion con la bd de mongodb
+conexion con la bd de mysql
 ```properties
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
