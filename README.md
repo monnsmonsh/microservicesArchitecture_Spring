@@ -61,6 +61,14 @@ Para conectar nuestro micro servicion tendremos que agregar una nueva dependendi
     <version>4.1.1</version>
 </dependency>
 ```
+despues configuramos nuestro server en `application.properties`
+```properties
+spring.application.name=product-microservice
+server.port=0
+##llaver de configuracion
+eureka.instance.instance-id=${spring.application.name}:${random.uuid}
+```
+
 
 
 ## Microservicio de **Reservas**
