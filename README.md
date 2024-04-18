@@ -84,3 +84,7 @@ https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4
 |----------|----------|
 | Eureka Server | SPRING CLOUD DISCOVERY |
 
+<!--
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=com.monnsmonsh&artifactId=discovery-service&name=discovery-service&description=Discovery%20Service&packageName=com.monnsmonsh.discovery-service&dependencies=cloud-eureka-server
+-->
+
