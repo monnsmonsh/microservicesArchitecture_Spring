@@ -12,10 +12,15 @@
 - MongoDB
 - IntelliJ IDEA
 - Postman
+- 
+## Estrutura de los micro servicios de la app
+| Microservicio | Metodos | DB |
+|----------|----------|----------|
+| Productos  | Post | `NOSQL` MongoDB | 
 
 > No es necesario utilizar `IntelliJ IDEA` puedes utilizar cualquier otro IDE que soporte java.
 
-## microservicio de **Productos**
+## Microservicio de **Productos**
 
 ### Config de dependencia 
 
