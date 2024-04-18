@@ -77,3 +77,10 @@ spring.jpa.generate-dll=true
 <!--
 https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=com.monnsmonsh&artifactId=booking-microservice&name=booking-microservice&description=Product%20Service&packageName=com.monnsmonsh.booking-microservice&dependencies=lombok,web,data-jpa,mysql
 -->
+
+## Servidor Eureka
+
+| Dependencias | Tipo |
+|----------|----------|
+| Eureka Server | SPRING CLOUD DISCOVERY |
+
