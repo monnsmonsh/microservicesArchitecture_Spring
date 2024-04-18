@@ -64,7 +64,14 @@ https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4
 
 conexion con la bd de mongodb
 ```properties
-spring.data.mongodb.uri=mongodb://localhost:27017/ms_productdb
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ms_bookingdb
+spring.datasource.username=root
+spring.datasource.password=*******
+spring.jpa.generate-dll=true
+
 ```
 
 <!--
