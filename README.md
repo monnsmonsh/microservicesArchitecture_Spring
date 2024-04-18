@@ -13,6 +13,7 @@
 - IntelliJ IDEA
 - Postman
 
+> No es necesario utilizar `IntelliJ IDEA` puedes utilizar cualquier otro IDE que soporte java.
 
 ## microservicio de **Productos**
 
