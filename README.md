@@ -51,3 +51,22 @@ localhost:8080/api/v1/products
 <!--
 https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=com.monnsmonsh&artifactId=product-microservice&name=product-microservice&description=Product%20Service&packageName=com.monnsmonsh.product-microservice&dependencies=lombok,web,data-mongodb
 -->
+
+## Microservicio de **Reservas**
+### Config de dependencias de spring 
+
+| Dependencias | Tipo |
+|----------|----------|
+| Spring Web | Cell 2   |
+| Lombok | WEB |
+| Spring Data JPA | SQL |
+| MySQL Driver | SQL | 
+
+conexion con la bd de mongodb
+```properties
+spring.data.mongodb.uri=mongodb://localhost:27017/ms_productdb
+```
+
+<!--
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=com.monnsmonsh&artifactId=booking-microservice&name=booking-microservice&description=Product%20Service&packageName=com.monnsmonsh.booking-microservice&dependencies=lombok,web,data-jpa,mysql
+-->
